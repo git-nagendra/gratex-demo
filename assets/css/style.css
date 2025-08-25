@@ -500,7 +500,7 @@ header {
 /* ================= MOBILE ================= */
 .menu-toggle {
   display: none;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
   margin-right: 20px;
 }
@@ -2178,7 +2178,7 @@ header {
 
 @media (max-width: 480px) {
   .section-heading h2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .section-heading h2 i {
