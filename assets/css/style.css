@@ -513,6 +513,12 @@ header {
     display: none;
   }
 }
+@media (max-width: 558px){
+  .stat-item {
+   min-width: 100% !important;
+  }
+
+}
 @media (max-width: 889px) {
   .top-bar,
   .nav-bar {
@@ -661,7 +667,7 @@ header {
   font-size: 0.9rem;
   font-weight: 800;
   height: 25px;
-  width: 25px;
+  min-width: 25px;
   border-radius: 50%;
   transition: all 0.3s ease;
   margin-right: 10px;
@@ -669,6 +675,7 @@ header {
 .feature-list p {
   border-bottom: 1.6px dotted #d3d3d479;
   padding-bottom: calc(20px / 2);
+  display: flex;
 }
 .check i {
   font-size: 0.7rem;
