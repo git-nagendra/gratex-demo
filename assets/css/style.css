@@ -1648,7 +1648,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: blur(7px) brightness(1);
+  filter: blur(15px) brightness(1);
   z-index: 1;
 }
 
