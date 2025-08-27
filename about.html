@@ -102,10 +102,10 @@
         <nav>
           <ul>
             <li><a href="index.html" class="">Home</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="about.html" class="active">About us</a></li>
             <li><a href="#">Catalogue</a></li>
             <li class="has-submenu">
-              <a href="all-product.html" class="active"
+              <a href="all-product.html" class=""
                 >Product <i class="fa-solid fa-angle-down ms-1"></i
               ></a>
               <ul class="submenu m-0 p-0">
@@ -130,235 +130,198 @@
         </div>
       </div>
     </header>
-
+    <!-- Section Heading -->
+    <div class="section-heading container mt-4">
+      <h2><i class="fa-solid fa-boxes-stacked"></i> About Us</h2>
+    </div>
     <section>
-      <!-- Premium Card Header -->
-      <div class="product__wrapper">
-        <div class="product_overlay dynamic-bg"></div>
-        <!-- dynamic background -->
-        <div class="container">
-          <div class="product____card">
-            <h1><i class="fas fa-gem"></i> Shoes Fabric Dno-283</h1>
-            <div class="my-3 d-flex gap-2">
-              <button class="btn btn-primary">
-                <i class="fas fa-file-invoice"></i> Request Quote
-              </button>
-              <button class="btn btn-primary">
-                <i class="fas fa-share-alt"></i> Share
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mt-5">
+      <div class="container py-5">
         <div class="row g-4">
-          <div class="col-lg-6">
-            <!-- GALLERY 1 -->
-            <div
-              class="product-gallery"
-              data-images='[
-              "./assets/images/Categories1.png",
-              "./assets/images/Categories5.png",
-              "./assets/images/Categories3.png",
-              "./assets/images/Categories5.png",
-              "./assets/images/Categories6.png",
-              "./assets/images/Categories7.png",
-              "./assets/images/Categories8.png"
-            ]'
-            >
-              <div class="main-image-container">
-                <img class="main-image" />
-                <button class="zoom-btn">
-                  <i class="fas fa-search-plus"></i>
-                </button>
-                <button class="nav-btn nav-btn-left">
-                  <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="nav-btn nav-btn-right">
-                  <i class="fas fa-chevron-right"></i>
-                </button>
-              </div>
-              <div class="thumbnails"></div>
-            </div>
+          <!-- Right Content -->
+          <div class="col-md-6 pt-4">
+            <p class="section-title">About Greatex Febric</p>
+            <h2 class="main-heading">
+              Crafting Quality Knitted Fabrics <br /><span
+                >for Over 50 Years</span
+              >
+            </h2>
+            <p class="text-mute">
+              Greatex Synthetics Pvt Ltd, are into manufacturing of synthetic
+              fabrics, stands out for its persistent vision and commitment. The
+              company under the supervision of Mr. Ashutosh Aggrawal and Mr.
+              Pranav Aggarwal, has developed goodwill as a recognized producer
+              of knitted fabrics, eminent for its commitment to quality and
+              supportability. This article divulges the momentous travel of
+              Greatex, shedding light on its commitment to conveying customized,
+              high-quality fabrics customization to the wants of different
+              industries.
+            </p>
 
-            <!-- POPUP (shared for all galleries) -->
-            <div id="popup" class="popup">
-              <div id="popupBg" class="popup-background"></div>
-              <div class="popup-content">
-                <span class="close-btn">&times;</span>
-                <div class="popup-image-container">
-                  <img id="popupImage" class="popup-image" src="" />
-                  <div id="magnifier" class="magnifier"></div>
-                </div>
-                <div class="popup-controls">
-                  <button id="zoomInBtn">Zoom In</button>
-                  <button id="zoomOutBtn">Zoom Out</button>
-                </div>
-              </div>
+            <!-- Buttons -->
+            <div class="d-flex flex-wrap gap-3">
+              <button class="btn-custom">VIEW MORE !</button>
+              <button class="btn-custom btn-outline-custom">CONTACT US</button>
             </div>
           </div>
-          <div class="col-lg-6">
-            <!-- Details -->
-            <div>
-              <h1 class="product-title">Product Details</h1>
-              <div class="details-card">
-                <div class="detail-row">
-                  <span>Product Name:</span><span>Shoes Fabric Dno-283</span>
-                </div>
-                <div class="detail-row">
-                  <span>Width:</span><span>62 inches</span>
-                </div>
-                <div class="detail-row">
-                  <span>Color:</span><span>All Color</span>
-                </div>
-                <div class="detail-row">
-                  <span>Usage:</span><span>Shoes</span>
-                </div>
-                <div class="detail-row">
-                  <span>Is It ISO Certified:</span><span>ISO Certified</span>
-                </div>
-                <div class="detail-row"><span>GSM:</span><span>240</span></div>
-                <div class="detail-row">
-                  <span>Country of Origin:</span><span>Made in India</span>
-                </div>
-                <div class="detail-row d-flex flex-column d-block w-100">
-                  <span>Description:</span>
-                  <p class="text-start w-100 mt-2">
-                    Our quality assurance team work towards improving and
-                    stabilizing production. We associate processes to avoid
-                    issues that may lead to defects in the first place and also
-                    verify that any customer's offering regardless if it is new
-                    or evolved is produced and offered with the best possible
-                    materials, in the most comprehensive way with the highest
-                    standards.
-                  </p>
-                </div>
-              </div>
-            </div>
+          <!-- Left Images -->
+          <div
+            class="col-md-6 overflow-hidden position-relative d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="./assets/images/Screenshot2 2025-08-21 212939.png"
+              class="img-fluid rounded"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              alt=""
+            />
+            <div class="image_overlay"></div>
           </div>
         </div>
       </div>
     </section>
-    <section class=" position-relative mt-5 Gratex_bg">
-      <div
-        class="tm-wrap-cell mb-5 d-flex align-items-center justify-content-center flex-column"
-      >
-        <p class="section-title">We Are Gratex</p>
-        <h2 class="custom-heading text-center">
-          Where Quality Threads Meet Innovation
-        </h2>
-      </div>
-      <div class="overlay_bg_image overlay_bg___image "></div>
-      <div class="container">
-        <div class="row px-md-0 px-2">
-          <!-- Swiper -->
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="manufacturing__card h-100 border">
-                  <div class="img-overlay">
-                    <img
-                      src="./assets/images/Categories2.jpg"
-                      alt="Silk fabric manufacturing workspace"
-                      class="card-img-top"
-                      style="height: 250px; object-fit: cover"
-                    />
-                  </div>
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold text-start mb-3">
-                      Silk Fabric
-                    </h5>
-                    <p class="card-text text-mute flex-grow-1">
-                      A scelerisque purus semper eget. Placerat in egestas erat
-                      imperdiet. Sit facilisis magna.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="manufacturing__card h-100 border">
-                  <div class="img-overlay">
-                    <img
-                      src="./assets/images/images (3).jpeg"
-                      alt="Silk fabric manufacturing workspace"
-                      class="card-img-top"
-                      style="height: 250px; object-fit: cover"
-                    />
-                  </div>
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold text-start mb-3">
-                      Georgette Fabric
-                    </h5>
-                    <p class="card-text text-mute flex-grow-1">
-                      Varius sit amet mattis vulputate enim nulla. Viverra
-                      maecenas accumsan lacus vel...
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="manufacturing__card h-100 border">
-                  <div class="img-overlay">
-                    <img
-                      src="./assets/images/images (2).jpeg"
-                      alt="Silk fabric manufacturing workspace"
-                      class="card-img-top"
-                      style="height: 250px; object-fit: cover"
-                    />
-                  </div>
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold text-start mb-3">
-                      Cotton Fabric
-                    </h5>
-                    <p class="card-text text-mute flex-grow-1">
-                      Molestie a iaculis at erat. Varius vel pharetra vel
-                      turpis. Ac turpis egestas integer aliquet.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="manufacturing__card h-100 border">
-                  <div class="img-overlay">
-                    <img
-                      src="./assets/images/Categories2.jpg"
-                      alt="Silk fabric manufacturing workspace"
-                      class="card-img-top"
-                      style="height: 250px; object-fit: cover"
-                    />
-                  </div>
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title fw-bold text-start mb-3">
-                      Silk Fabric
-                    </h5>
-                    <p class="card-text text-mute flex-grow-1">
-                      A scelerisque purus semper eget. Placerat in egestas erat
-                      imperdiet. Sit facilisis magna.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <!-- ORIGINAL LIST -->
+        <div class="ticker__item">
+          <span class="dot"></span> A Legacy of Excellence since 1956
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Trusted leader in knitted & woven fabrics
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Expanding into manufacturing since 1989
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Driven by new-age leadership & innovation
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Recognized OEM in the textile industry
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Delivering finely customized fabrics
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Certified recycled fabrics for
+          sustainability
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Active in national & international
+          exhibitions
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Family-like culture with generations of
+          employees
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Investing in R&D for future growth
+        </div>
 
-            <!-- Pagination -->
-            <div class="slider_btn">
-              <div
-                class="swiper-button-prev"
-                tabindex="0"
-                role="button"
-                aria-label="Previous slide"
-                aria-controls="swiper-wrapper-d987881f94a29da1"
-              ></div>
-              <div
-                class="swiper-button-next"
-                tabindex="0"
-                role="button"
-                aria-label="Next slide"
-                aria-controls="swiper-wrapper-d987881f94a29da1"
-              ></div>
+        <!-- DUPLICATE LIST (for seamless loop) -->
+        <div class="ticker__item">
+          <span class="dot"></span> A Legacy of Excellence since 1956
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Trusted leader in knitted & woven fabrics
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Expanding into manufacturing since 1989
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Driven by new-age leadership & innovation
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Recognized OEM in the textile industry
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Delivering finely customized fabrics
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Certified recycled fabrics for
+          sustainability
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Active in national & international
+          exhibitions
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Family-like culture with generations of
+          employees
+        </div>
+        <div class="ticker__item">
+          <span class="dot"></span> Investing in R&D for future growth
+        </div>
+      </div>
+    </div>
+    <section class="vision___bg">
+      <div class="vision__container container">
+        <header class="vision__header mb-5">
+          <h2 id="vision-title" class="vision__title">
+            Crafting a Sustainable & Innovative Textile Future
+          </h2>
+          <p class="vision__subtitle">
+            We aim to lead with sustainability, technical excellence, and
+            responsible business practices.
+          </p>
+        </header>
+
+        <div class="vision__grid">
+          <!-- Card 1 -->
+          <article class="vcard">
+            <div class="vcard__icon"><i class="fa-solid fa-globe"></i></div>
+            <div>
+              <h3 class="vcard__title">Global Leadership</h3>
+              <p class="vcard__text">
+                To be a global leader in sustainable and high-quality textile
+                manufacturing.
+              </p>
             </div>
-          </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="vcard">
+            <div class="vcard__icon"><i class="fa-solid fa-leaf"></i></div>
+            <div>
+              <h3 class="vcard__title">Eco-Friendly Innovation</h3>
+              <p class="vcard__text">
+                Innovate eco-friendly fabrics that support a greener future.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="vcard">
+            <div class="vcard__icon"><i class="fa-solid fa-flask"></i></div>
+            <div>
+              <h3 class="vcard__title">R&D Excellence</h3>
+              <p class="vcard__text">
+                Set new benchmarks in technical textile development through R&D.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="vcard">
+            <div class="vcard__icon"><i class="fa-solid fa-users"></i></div>
+            <div>
+              <h3 class="vcard__title">Customer Satisfaction</h3>
+              <p class="vcard__text">
+                Enhance customer satisfaction with superior products and
+                reliable service.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="vcard">
+            <div class="vcard__icon"><i class="fa-solid fa-handshake"></i></div>
+            <div>
+              <h3 class="vcard__title">Ethical Practices</h3>
+              <p class="vcard__text">
+                Promote ethical and responsible business practices in the
+                textile industry.
+              </p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
