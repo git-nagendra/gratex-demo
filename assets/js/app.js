@@ -1,3 +1,21 @@
+ document.querySelectorAll(".filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        let dropdown = btn.parentElement.querySelector(".dropdown");
+        dropdown.classList.toggle("show");
+
+        // Close others
+        document.querySelectorAll(".dropdown").forEach(dd => {
+          if (dd !== dropdown) dd.classList.remove("show");
+        });
+      });
+    });
+
+    // Close dropdowns if clicked outside
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".filter")) {
+        document.querySelectorAll(".dropdown").forEach(dd => dd.classList.remove("show"));
+      }
+    });
 // Mobile Nav Toggle
 const toggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav-bar nav");
@@ -117,3 +135,6 @@ prevBtn.addEventListener("click", () => {
 
 // Initialize first slide
 showSlide(index);
+
+
+
